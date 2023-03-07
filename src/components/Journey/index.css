@@ -1,0 +1,146 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.pic {
+    border-radius: 10%;
+}
+
+.text {
+    padding-left: 2cm;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 128px;
+
+    text-align: center;
+
+    background: linear-gradient(270deg, #dba6f4 11.87%, #a981fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.hed {
+    /* padding-top: 4cm; */
+    color: whitesmoke;
+    font-family: monospace;
+    /* padding-left: 1cm; */
+}
+
+.text2 {
+    padding-top: 1cm;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.text3 {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 1em;
+    border: 2px solid;
+    border-radius: 1em;
+
+    background: linear-gradient(270deg, #b0c7b7 11.87%, #81feab 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.text4 {
+    background: linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text5 {
+    line-height: normal;
+}
+
+.textR {
+    float: right;
+}
+
+.text6 {
+    background: linear-gradient(270deg, #A9FE81 11.87%, #C0F0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.image {
+    width: 592px;
+    height: 395px;
+    border-radius: 101px;
+}
+
+.leftn{
+    float: left;
+}
+
+i {
+    color: white;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.icons {
+    width: 50em;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    display: inline-block;
+    padding-bottom: 2em;
+}
+
+.skills {
+    padding: 10em;
+}
+
+.skills-set {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5em 0em;
+}
